@@ -1,0 +1,445 @@
+### YamlMime:ManagedReference
+items:
+- uid: SD.Extensions.Error.Methods
+  commentId: T:SD.Extensions.Error.Methods
+  id: Methods
+  parent: SD.Extensions.Error
+  children:
+  - SD.Extensions.Error.Methods.Show(Vi.Types.Error,System.Int32,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: Methods
+  nameWithType: Methods
+  fullName: SD.Extensions.Error.Methods
+  type: Class
+  source:
+    id: Methods
+    path: C:\Vi\Dakar\Code\CS\File Parser Console\Extensions\Extension.Error.cs
+    startLine: 14
+  assemblies:
+  - ETL GUI
+  namespace: SD.Extensions.Error
+  summary: Collection of extention methods for TimeSpan
+  example: []
+  syntax:
+    content: public static class Methods
+    content.vb: Public Module Methods
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SD.Extensions.Error.Methods.Show(Vi.Types.Error,System.Int32,System.String,System.String)
+  commentId: M:SD.Extensions.Error.Methods.Show(Vi.Types.Error,System.Int32,System.String,System.String)
+  id: Show(Vi.Types.Error,System.Int32,System.String,System.String)
+  isExtensionMethod: true
+  parent: SD.Extensions.Error.Methods
+  langs:
+  - csharp
+  - vb
+  name: Show(Error, int, string, string)
+  nameWithType: Methods.Show(Error, int, string, string)
+  fullName: SD.Extensions.Error.Methods.Show(Vi.Types.Error, int, string, string)
+  type: Method
+  source:
+    id: Show
+    path: C:\Vi\Dakar\Code\CS\File Parser Console\Extensions\Extension.Error.cs
+    startLine: 24
+  assemblies:
+  - ETL GUI
+  namespace: SD.Extensions.Error
+  summary: Displays an error message in a dialog box and logs the error details.
+  example: []
+  syntax:
+    content: public static DialogResult Show(this Error ve, int line = 0, string member = "?", string file = "?")
+    parameters:
+    - id: ve
+      type: Vi.Types.Error
+      description: The error object to display and log.
+    - id: line
+      type: System.Int32
+      description: The line number where the error occurred.
+    - id: member
+      type: System.String
+      description: The name of the member where the error occurred.
+    - id: file
+      type: System.String
+      description: The file path where the error occurred.
+    return:
+      type: System.Windows.Forms.DialogResult
+      description: A DialogResult indicating the user's response to the dialog box.
+    content.vb: Public Shared Function Show(ve As [Error], line As Integer = 0, member As String = "?", file As String = "?") As DialogResult
+  overload: SD.Extensions.Error.Methods.Show*
+  nameWithType.vb: Methods.Show(Error, Integer, String, String)
+  fullName.vb: SD.Extensions.Error.Methods.Show(Vi.Types.Error, Integer, String, String)
+  name.vb: Show(Error, Integer, String, String)
+references:
+- uid: SD.Extensions.Error
+  commentId: N:SD.Extensions.Error
+  href: SD.html
+  name: SD.Extensions.Error
+  nameWithType: SD.Extensions.Error
+  fullName: SD.Extensions.Error
+  spec.csharp:
+  - uid: SD
+    name: SD
+    href: SD.html
+  - name: .
+  - uid: SD.Extensions
+    name: Extensions
+    href: SD.Extensions.html
+  - name: .
+  - uid: SD.Extensions.Error
+    name: Error
+    href: SD.Extensions.Error.html
+  spec.vb:
+  - uid: SD
+    name: SD
+    href: SD.html
+  - name: .
+  - uid: SD.Extensions
+    name: Extensions
+    href: SD.Extensions.html
+  - name: .
+  - uid: SD.Extensions.Error
+    name: Error
+    href: SD.Extensions.Error.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SD.Extensions.Error.Methods.Show*
+  commentId: Overload:SD.Extensions.Error.Methods.Show
+  href: SD.Extensions.Error.Methods.html#SD_Extensions_Error_Methods_Show_Vi_Types_Error_System_Int32_System_String_System_String_
+  name: Show
+  nameWithType: Methods.Show
+  fullName: SD.Extensions.Error.Methods.Show
+- uid: Vi.Types.Error
+  commentId: T:Vi.Types.Error
+  parent: Vi.Types
+  name: Error
+  nameWithType: Error
+  fullName: Vi.Types.Error
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Windows.Forms.DialogResult
+  commentId: T:System.Windows.Forms.DialogResult
+  parent: System.Windows.Forms
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.forms.dialogresult
+  name: DialogResult
+  nameWithType: DialogResult
+  fullName: System.Windows.Forms.DialogResult
+- uid: Vi.Types
+  commentId: N:Vi.Types
+  name: Vi.Types
+  nameWithType: Vi.Types
+  fullName: Vi.Types
+  spec.csharp:
+  - uid: Vi
+    name: Vi
+  - name: .
+  - uid: Vi.Types
+    name: Types
+  spec.vb:
+  - uid: Vi
+    name: Vi
+  - name: .
+  - uid: Vi.Types
+    name: Types
+- uid: System.Windows.Forms
+  commentId: N:System.Windows.Forms
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Forms
+  nameWithType: System.Windows.Forms
+  fullName: System.Windows.Forms
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Forms
+    name: Forms
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.forms
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Forms
+    name: Forms
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.forms

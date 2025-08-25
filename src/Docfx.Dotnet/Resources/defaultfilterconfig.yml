@@ -1,4 +1,5 @@
-﻿apiRules:
+﻿### YamlMime:ManagedReference
+apiRules:
 - exclude:
     hasAttribute:
       uid: System.ComponentModel.EditorBrowsableAttribute

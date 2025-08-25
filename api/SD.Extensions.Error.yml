@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SD.Extensions.Error
+  commentId: N:SD.Extensions.Error
+  id: SD.Extensions.Error
+  children:
+  - SD.Extensions.Error.Methods
+  langs:
+  - csharp
+  - vb
+  name: SD.Extensions.Error
+  nameWithType: SD.Extensions.Error
+  fullName: SD.Extensions.Error
+  type: Namespace
+  assemblies:
+  - ETL GUI
+references:
+- uid: SD.Extensions.Error.Methods
+  commentId: T:SD.Extensions.Error.Methods
+  href: SD.Extensions.Error.Methods.html
+  name: Methods
+  nameWithType: Methods
+  fullName: SD.Extensions.Error.Methods

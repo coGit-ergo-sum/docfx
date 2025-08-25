@@ -1,0 +1,48 @@
+### YamlMime:TableOfContent
+items:
+- uid: File_Parser_Console
+  name: File_Parser_Console
+  type: Namespace
+  items:
+  - uid: File_Parser_Console.Form1
+    name: Form1
+    type: Class
+- uid: SD.Extensions.Error
+  name: SD.Extensions.Error
+  type: Namespace
+  items:
+  - uid: SD.Extensions.Error.Methods
+    name: Methods
+    type: Class
+- uid: SD.Extensions.Exception
+  name: SD.Extensions.Exception
+  type: Namespace
+  items:
+  - uid: SD.Extensions.Exception.Methods
+    name: Methods
+    type: Class
+- uid: SD.Extensions.String
+  name: SD.Extensions.String
+  type: Namespace
+  items:
+  - uid: SD.Extensions.String.Methods
+    name: Methods
+    type: Class
+- uid: SD.Interop.GUI
+  name: SD.Interop.GUI
+  type: Namespace
+  items:
+  - uid: SD.Interop.GUI.frmGUI
+    name: frmGUI
+    type: Class
+- uid: SD.Interop.GUI.Types
+  name: SD.Interop.GUI.Types
+  type: Namespace
+  items:
+  - uid: SD.Interop.GUI.Types.Profile
+    name: Profile
+    type: Class
+  - uid: SD.Interop.GUI.Types.WorkerClient
+    name: WorkerClient
+    type: Class
+memberLayout: SamePage

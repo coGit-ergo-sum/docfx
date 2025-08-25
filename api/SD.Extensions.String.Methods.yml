@@ -1,0 +1,480 @@
+### YamlMime:ManagedReference
+items:
+- uid: SD.Extensions.String.Methods
+  commentId: T:SD.Extensions.String.Methods
+  id: Methods
+  parent: SD.Extensions.String
+  children:
+  - SD.Extensions.String.Methods.Show(System.String,System.Windows.Forms.IWin32Window,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)
+  - SD.Extensions.String.Methods.ShowOk(System.String,System.Windows.Forms.IWin32Window)
+  langs:
+  - csharp
+  - vb
+  name: Methods
+  nameWithType: Methods
+  fullName: SD.Extensions.String.Methods
+  type: Class
+  source:
+    id: Methods
+    path: C:\Vi\Dakar\Code\CS\File Parser Console\Extensions\Extension.String.cs
+    startLine: 14
+  assemblies:
+  - ETL GUI
+  namespace: SD.Extensions.String
+  summary: Collection of extention methods for TimeSpan
+  example: []
+  syntax:
+    content: public static class Methods
+    content.vb: Public Module Methods
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SD.Extensions.String.Methods.Show(System.String,System.Windows.Forms.IWin32Window,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)
+  commentId: M:SD.Extensions.String.Methods.Show(System.String,System.Windows.Forms.IWin32Window,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)
+  id: Show(System.String,System.Windows.Forms.IWin32Window,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)
+  isExtensionMethod: true
+  parent: SD.Extensions.String.Methods
+  langs:
+  - csharp
+  - vb
+  name: Show(string, IWin32Window, MessageBoxButtons, MessageBoxIcon)
+  nameWithType: Methods.Show(string, IWin32Window, MessageBoxButtons, MessageBoxIcon)
+  fullName: SD.Extensions.String.Methods.Show(string, System.Windows.Forms.IWin32Window, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)
+  type: Method
+  source:
+    id: Show
+    path: C:\Vi\Dakar\Code\CS\File Parser Console\Extensions\Extension.String.cs
+    startLine: 24
+  assemblies:
+  - ETL GUI
+  namespace: SD.Extensions.String
+  summary: Displays a message box with the specified message, owner, buttons, and icon.
+  example: []
+  syntax:
+    content: public static DialogResult Show(this string message, IWin32Window owner, MessageBoxButtons buttons, MessageBoxIcon icon)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message to display in the message box.
+    - id: owner
+      type: System.Windows.Forms.IWin32Window
+      description: The owner window of the message box.
+    - id: buttons
+      type: System.Windows.Forms.MessageBoxButtons
+      description: The buttons to display in the message box.
+    - id: icon
+      type: System.Windows.Forms.MessageBoxIcon
+      description: The icon to display in the message box.
+    return:
+      type: System.Windows.Forms.DialogResult
+      description: A DialogResult indicating the user's response.
+    content.vb: Public Shared Function Show(message As String, owner As IWin32Window, buttons As MessageBoxButtons, icon As MessageBoxIcon) As DialogResult
+  overload: SD.Extensions.String.Methods.Show*
+  nameWithType.vb: Methods.Show(String, IWin32Window, MessageBoxButtons, MessageBoxIcon)
+  fullName.vb: SD.Extensions.String.Methods.Show(String, System.Windows.Forms.IWin32Window, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)
+  name.vb: Show(String, IWin32Window, MessageBoxButtons, MessageBoxIcon)
+- uid: SD.Extensions.String.Methods.ShowOk(System.String,System.Windows.Forms.IWin32Window)
+  commentId: M:SD.Extensions.String.Methods.ShowOk(System.String,System.Windows.Forms.IWin32Window)
+  id: ShowOk(System.String,System.Windows.Forms.IWin32Window)
+  isExtensionMethod: true
+  parent: SD.Extensions.String.Methods
+  langs:
+  - csharp
+  - vb
+  name: ShowOk(string, IWin32Window)
+  nameWithType: Methods.ShowOk(string, IWin32Window)
+  fullName: SD.Extensions.String.Methods.ShowOk(string, System.Windows.Forms.IWin32Window)
+  type: Method
+  source:
+    id: ShowOk
+    path: C:\Vi\Dakar\Code\CS\File Parser Console\Extensions\Extension.String.cs
+    startLine: 36
+  assemblies:
+  - ETL GUI
+  namespace: SD.Extensions.String
+  summary: Displays a message box with the specified message and an OK button.
+  example: []
+  syntax:
+    content: public static DialogResult ShowOk(this string message, IWin32Window owner)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message to display in the message box.
+    - id: owner
+      type: System.Windows.Forms.IWin32Window
+      description: The owner window of the message box.
+    return:
+      type: System.Windows.Forms.DialogResult
+      description: A DialogResult indicating the user's response.
+    content.vb: Public Shared Function ShowOk(message As String, owner As IWin32Window) As DialogResult
+  overload: SD.Extensions.String.Methods.ShowOk*
+  nameWithType.vb: Methods.ShowOk(String, IWin32Window)
+  fullName.vb: SD.Extensions.String.Methods.ShowOk(String, System.Windows.Forms.IWin32Window)
+  name.vb: ShowOk(String, IWin32Window)
+references:
+- uid: SD.Extensions.String
+  commentId: N:SD.Extensions.String
+  href: SD.html
+  name: SD.Extensions.String
+  nameWithType: SD.Extensions.String
+  fullName: SD.Extensions.String
+  spec.csharp:
+  - uid: SD
+    name: SD
+    href: SD.html
+  - name: .
+  - uid: SD.Extensions
+    name: Extensions
+    href: SD.Extensions.html
+  - name: .
+  - uid: SD.Extensions.String
+    name: String
+    href: SD.Extensions.String.html
+  spec.vb:
+  - uid: SD
+    name: SD
+    href: SD.html
+  - name: .
+  - uid: SD.Extensions
+    name: Extensions
+    href: SD.Extensions.html
+  - name: .
+  - uid: SD.Extensions.String
+    name: String
+    href: SD.Extensions.String.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SD.Extensions.String.Methods.Show*
+  commentId: Overload:SD.Extensions.String.Methods.Show
+  href: SD.Extensions.String.Methods.html#SD_Extensions_String_Methods_Show_System_String_System_Windows_Forms_IWin32Window_System_Windows_Forms_MessageBoxButtons_System_Windows_Forms_MessageBoxIcon_
+  name: Show
+  nameWithType: Methods.Show
+  fullName: SD.Extensions.String.Methods.Show
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Windows.Forms.IWin32Window
+  commentId: T:System.Windows.Forms.IWin32Window
+  parent: System.Windows.Forms
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.forms.iwin32window
+  name: IWin32Window
+  nameWithType: IWin32Window
+  fullName: System.Windows.Forms.IWin32Window
+- uid: System.Windows.Forms.MessageBoxButtons
+  commentId: T:System.Windows.Forms.MessageBoxButtons
+  parent: System.Windows.Forms
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.forms.messageboxbuttons
+  name: MessageBoxButtons
+  nameWithType: MessageBoxButtons
+  fullName: System.Windows.Forms.MessageBoxButtons
+- uid: System.Windows.Forms.MessageBoxIcon
+  commentId: T:System.Windows.Forms.MessageBoxIcon
+  parent: System.Windows.Forms
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.forms.messageboxicon
+  name: MessageBoxIcon
+  nameWithType: MessageBoxIcon
+  fullName: System.Windows.Forms.MessageBoxIcon
+- uid: System.Windows.Forms.DialogResult
+  commentId: T:System.Windows.Forms.DialogResult
+  parent: System.Windows.Forms
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.forms.dialogresult
+  name: DialogResult
+  nameWithType: DialogResult
+  fullName: System.Windows.Forms.DialogResult
+- uid: System.Windows.Forms
+  commentId: N:System.Windows.Forms
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Forms
+  nameWithType: System.Windows.Forms
+  fullName: System.Windows.Forms
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Forms
+    name: Forms
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.forms
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Forms
+    name: Forms
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.forms
+- uid: SD.Extensions.String.Methods.ShowOk*
+  commentId: Overload:SD.Extensions.String.Methods.ShowOk
+  href: SD.Extensions.String.Methods.html#SD_Extensions_String_Methods_ShowOk_System_String_System_Windows_Forms_IWin32Window_
+  name: ShowOk
+  nameWithType: Methods.ShowOk
+  fullName: SD.Extensions.String.Methods.ShowOk

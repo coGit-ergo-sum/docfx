@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SD.Interop.GUI.Types
+  commentId: N:SD.Interop.GUI.Types
+  id: SD.Interop.GUI.Types
+  children:
+  - SD.Interop.GUI.Types.Profile
+  - SD.Interop.GUI.Types.WorkerClient
+  langs:
+  - csharp
+  - vb
+  name: SD.Interop.GUI.Types
+  nameWithType: SD.Interop.GUI.Types
+  fullName: SD.Interop.GUI.Types
+  type: Namespace
+  assemblies:
+  - ETL GUI
+references:
+- uid: SD.Interop.GUI.Types.Profile
+  commentId: T:SD.Interop.GUI.Types.Profile
+  href: SD.Interop.GUI.Types.Profile.html
+  name: Profile
+  nameWithType: Profile
+  fullName: SD.Interop.GUI.Types.Profile
+- uid: SD.Interop.GUI.Types.WorkerClient
+  commentId: T:SD.Interop.GUI.Types.WorkerClient
+  href: SD.Interop.GUI.Types.WorkerClient.html
+  name: WorkerClient
+  nameWithType: WorkerClient
+  fullName: SD.Interop.GUI.Types.WorkerClient

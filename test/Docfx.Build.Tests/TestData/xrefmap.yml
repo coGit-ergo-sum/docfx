@@ -1,4 +1,5 @@
-﻿references:
+﻿### YamlMime:ManagedReference
+references:
 - fullName: str
   href: https://docs.python.org/3.5/library/stdtypes.html#str
   name: str

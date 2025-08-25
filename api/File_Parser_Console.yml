@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: File_Parser_Console
+  commentId: N:File_Parser_Console
+  id: File_Parser_Console
+  children:
+  - File_Parser_Console.Form1
+  langs:
+  - csharp
+  - vb
+  name: File_Parser_Console
+  nameWithType: File_Parser_Console
+  fullName: File_Parser_Console
+  type: Namespace
+  assemblies:
+  - ETL GUI
+references:
+- uid: File_Parser_Console.Form1
+  commentId: T:File_Parser_Console.Form1
+  href: File_Parser_Console.Form1.html
+  name: Form1
+  nameWithType: Form1
+  fullName: File_Parser_Console.Form1

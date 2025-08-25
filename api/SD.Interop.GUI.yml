@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SD.Interop.GUI
+  commentId: N:SD.Interop.GUI
+  id: SD.Interop.GUI
+  children:
+  - SD.Interop.GUI.frmGUI
+  langs:
+  - csharp
+  - vb
+  name: SD.Interop.GUI
+  nameWithType: SD.Interop.GUI
+  fullName: SD.Interop.GUI
+  type: Namespace
+  assemblies:
+  - ETL GUI
+references:
+- uid: SD.Interop.GUI.frmGUI
+  commentId: T:SD.Interop.GUI.frmGUI
+  href: SD.Interop.GUI.frmGUI.html
+  name: frmGUI
+  nameWithType: frmGUI
+  fullName: SD.Interop.GUI.frmGUI
